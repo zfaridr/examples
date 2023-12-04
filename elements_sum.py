@@ -14,7 +14,7 @@ array = [1, 4, (4, 3), [3, 8, 12, 'dfg', (2, 10), 4, 'wer'], {3, 8}]
 
 sum = 0
 recursive_sum(array)
-print(sum)
+print('sum_3')
 
 def recursive_sum_2(*args, path=[]):
     total_sum = 0
