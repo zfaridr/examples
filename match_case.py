@@ -37,6 +37,8 @@ def get_color(color):
         case _:
             print('no template')
 
+print('results of fuctions')
+
 get_color([120, 120, 120])
 get_color([120, 120, 120, 0.5])
 get_color([120, 120])
