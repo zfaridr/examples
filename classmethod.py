@@ -22,7 +22,7 @@ class A:
 instance = A(2)
 
 multiply = classmethod(A.multiply)
-
+print('new_class')
 print(instance.add(3, 4))
 print(A.multiply(A, 2, 3))
 print(A.multiply(A, A.x, A.y))
